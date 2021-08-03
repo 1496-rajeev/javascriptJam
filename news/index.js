@@ -23,7 +23,7 @@ xhr.onload = function () {
     let newshtml = "";
     articles.forEach(function (element, index) {
       console.log(articles);
-      let news = `<div class="card m-5" style="width: 18rem;">
+      let news = `<div class="card m-5 col-sm-4" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">${element["title"]}</h5>
         <p class="card-text">${element["description"]}</p>
