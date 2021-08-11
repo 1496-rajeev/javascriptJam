@@ -1,5 +1,15 @@
 console.log("this is regular expresssion");
 let reg = /rajeev/; //regular expression literal
+
+//metacharacters
+let regex = /^r/; //start with "r"
+regex = /r$/; //end with "r"
+regex = /r.jeev/; //match  one character present on "."
+
+regex = /r*jeev/; //match multiple character present on "*"
+regex = /r\*jeev/; // here "*" is character to match
+regex = /r?jeev/; //"r" may be may not be
+
 console.log(reg.source);
 
 //let reg = /rajeev/i;  // i case insensitive flag,g global flag
