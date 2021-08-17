@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>javascript jam - part-4</title>
   </head>
-  <body>
+  <body onload="updateClock(); setInterval('updateClock()', 1000)">
     <div class="container">
       <h1>hello</h1>
     </div>
+    <div id="clock"></div>
 
     <!-- <script src="iterator.js"></script> -->
     <!-- <script src="generator.js"></script> -->
@@ -17,6 +18,7 @@
     <!-- <script src="map.js"></script> -->
     <!-- <script src="set.js"></script> -->
     <!-- <script src="symbol.js"></script> -->
-    <script src="destructuring.js"></script>
+    <!-- <script src="destructuring.js"></script> -->
+    <script src="time.js"></script>
   </body>
 </html>
